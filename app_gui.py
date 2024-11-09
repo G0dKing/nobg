@@ -121,7 +121,7 @@ window = TkinterDnD.Tk()
 window.title("Alex Pariah's Background Removal Tool")
 window.minsize(width=300, height=350)
 
-logo_image = tk.PhotoImage(file="no_bg_logo.png")
+logo_image = tk.PhotoImage(file="logo.png")
 logo_image_resized = logo_image.subsample(2, 2)
 logo_label = tk.Label(window, image=logo_image_resized)
 logo_label.pack(pady=10)  # Add padding on the Y-axis
